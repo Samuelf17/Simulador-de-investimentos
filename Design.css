@@ -1,0 +1,30 @@
+body{
+    background-color: #00CCC0;
+    font:normal 12pt Arial;
+}
+    header{
+        text-align: center;
+    }
+    div#area1{
+        background-color: white;
+        padding: 15px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+    }
+    div#area2{
+        background-color: white;
+        width: 500px;
+        left: 740px;
+        top: 85px;
+        position: absolute;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.356);
+    }
+    section{
+    font: normal 12pt Arial;
+}
+footer{
+    text-align: center;
+    font: 12pt italic;
+}

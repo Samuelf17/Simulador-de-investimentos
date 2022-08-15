@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest</title>
+    <link rel="stylesheet" href="Design.css">
+</head>
+<body>
+    <header>
+    <h1>Invest</h1>
+    </header>
+    <section>
+    <div id='area1'>
+       <p>Selecione o tipo de investimento:</p>
+        <select id='tipoinv'>
+            <option>Selecione o investimento</option>
+            <option>CDB</option>
+            <option>LCs ou poupança</option>
+        </select>
+        <p>Valor do investimento</p>
+        <input type='number' id='txtvalor'>
+        <p>Porcentagem de juros (a.a)</p>
+        <input type='number' id='txtjuros'>
+        <p>Tempo do investimento (em meses)</p>
+        <input type='number' id='txttempo'>
+        <p><input type='button' value='Simular' id='button' onclick = 'final()' ></p>
+    </div>
+    <div id='area2'>
+    </div>
+    </section>
+    <footer>&copy Samuel</footer>
+    <script src="Commands.js"></script>
+</body>
+</html>
